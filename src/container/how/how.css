@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    background: hsla(194, 45%, 40%, 1);
+    align-items: center;
+    margin: none;
+    font-family: "Manrope", sans-serif;
+}
+
+.how-header {
+    padding: 5rem 0rem 3rem 0rem;
+}
+
+.how-header h1 {
+    font-size: 34pt;
+    color: #fff;
+}
+
+.how-body {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sub-heading {
+    margin: 0rem 27rem 4rem 28rem;
+}
+
+.sub-heading h3 {
+    color: #fff;
+    font-size: 24pt;
+    margin-bottom: 2rem;
+}
+
+.sub-heading p {
+    color: #fff;
+    font-size: 15pt;
+}
+
+.how-footer {
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    gap: 1rem;
+    padding: 1rem 0rem 4rem 0rem;
+    align-content: baseline;
+}
+
+.how-footer h5 {
+    color: #fff;
+    font-size: 15pt;
+    padding-top: 10px;
+}
+
+.how-footer button {
+    border: 1px solid hsla(178, 38%, 59%, 1);
+    border-radius: 50px;
+    height: 3.5rem;
+    width: 15rem;
+}
+
+.how-footer p {
+    font-size: 15pt;
+}
+
+@media screen and (max-width: 720px) {
+    .how {
+        display: flex;
+        flex-direction: column;
+        background: hsla(194, 45%, 40%, 1);
+        align-items: center;
+        margin: none;
+        font-family: "Manrope", sans-serif;
+    }
+
+    .how-header {
+        padding: 5rem 0rem 3rem 0rem;
+    }
+
+    .how-header h1 {
+        font-size: 30pt;
+        color: #fff;
+    }
+
+    .how-body {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .sub-heading {
+        margin: 0rem 12rem 4rem 12rem;
+    }
+
+    .sub-heading h3 {
+        color: #fff;
+        font-size: 20pt;
+        margin-bottom: 2rem;
+    }
+
+    .sub-heading p {
+        color: #fff;
+        font-size: 12pt;
+    }
+
+    .how-footer {
+        display: flex;
+        font-family: "Manrope", sans-serif;
+        gap: 1rem;
+        padding: 1rem 0rem 4rem 0rem;
+        align-content: baseline;
+    }
+
+    .how-footer h5 {
+        color: #fff;
+        font-size: 15pt;
+        padding-top: 10px;
+    }
+
+    .how-footer button {
+        border: 1px solid hsla(178, 38%, 59%, 1);
+        border-radius: 50px;
+        height: 3.5rem;
+        width: 15rem;
+    }
+
+    .how-footer p {
+        font-size: 15pt;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    .how
+    {
+        text-align: center;
+    }
+
+    .how-header h1 {
+        font-size: 20pt;
+        color: #fff;
+    }
+
+    
+    .sub-heading {
+        margin: 0rem 2rem 3rem 2rem;
+    }
+
+    .sub-heading h3 {
+        color: #fff;
+        font-size: 16pt;
+        margin-bottom: 2rem;
+    }
+
+    .sub-heading p {
+        color: #fff;
+        font-size: 12pt;
+    }
+
+    .how-footer {
+        display: flex;
+        flex-direction: column;
+        font-family: "Manrope", sans-serif;
+        gap: 1.5rem;
+        align-items: center;
+        padding: 1rem 0rem 4rem 0rem;
+        align-content: baseline;
+    }
+
+    .how-footer h5 {
+        color: #fff;
+        font-size: 15pt;
+        padding-top: 10px;
+    }
+
+    .how-footer button {
+        border: 1px solid hsla(178, 38%, 59%, 1);
+        border-radius: 50px;
+        height: 3.5rem;
+        width: 14rem;
+        font-size: 12pt;
+    }
+
+    .how-footer p {
+        font-size: 15pt;
+    }
+}

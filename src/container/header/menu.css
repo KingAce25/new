@@ -1,0 +1,57 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Styling the hamburger button */
+.menu-btn {
+    position: relative;
+    /* width: 30px;
+    height:px; */
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-btn__burger {
+    /* width: 100%; */
+    /* height: 3rem; */
+    /* border-radius: 2px; */
+    transition: all 0.3s ease;
+}
+
+
+.menu-btn.open .menu-btn__burger {
+    background-color: transparent;
+}
+
+#dropdown-menu {
+    margin-top: 5rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    border: none;
+    position: fixed;
+    background-color: hsla(178, 38%, 59%, 1);
+    border-top: 1px solid #fff;
+    /* z-index: 1rem; */
+    /* transition: opacity 0.3s ease;
+    opacity: 1; */
+}
+
+#dropdown-menu ul {
+    list-style: none;
+    padding: 0rem 2rem;
+    margin: 0;
+}
+
+#dropdown-menu ul li {
+    margin: 10px 0;
+    gap: 1rem;
+}
+
+#dropdown-menu ul li a {
+    text-decoration: none;
+    display: block;
+}

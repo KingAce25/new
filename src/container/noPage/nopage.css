@@ -1,0 +1,18 @@
+.noPage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem;
+}
+
+.noPage h1{
+    font-size: 80pt;
+    font-family: 'Manrope', Sans-serif;
+}
+
+.noPage p{
+    font-size: 30pt;
+    font-family: "Manrope" Sans-serif;
+}

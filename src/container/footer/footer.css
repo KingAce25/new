@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    bottom: 0;
+    left: 0;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: first baseline;
+    padding-left: 5rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}
+
+.footerimg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerimg img {
+    display: flex;
+    width: 2rem;
+    height: 3rem;
+}
+
+.footerimg a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding: 2rem;
+}
+
+.footerimg a h1 {
+    padding-left: 1rem;
+    font-family: 'Manrope', sans-serif;
+    width: 12rem;
+}
+
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 h4 {
+    font-size: 16pt;
+    font-family: 'Manrope', sans-serif;
+}
+
+.footer2 .links2 {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-top: 1rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.footer2 a,
+p {
+    text-decoration: none;
+    color: rgb(141, 196, 214);
+
+}
+
+.lan {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ha
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yo {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.lan button {
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10%;
+    margin: 0;
+}
+
+.lan .text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+    width: 12rem;
+    font-size: 10pt;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+}
+
+.lan .text a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.lan .text p {
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+@media screen and (max-width: 720px) {
+    .footer {
+        display: flex;
+        bottom: 0;
+        left: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: first baseline;
+        padding-left: 2rem;
+    }
+
+    .footerimg {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footerimg img {
+        display: flex;
+        width: 2rem;
+        height: 3rem;
+    }
+
+    .footerimg a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        padding: 1.5rem;
+    }
+
+    .footerimg a h1 {
+        padding-left: 1rem;
+        font-family: 'Manrope', sans-serif;
+    }
+
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer2 h4 {
+        font-size: 12pt;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .footer2 .links2 {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding-top: 1rem;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .footer2 a,
+    p {
+        text-decoration: none;
+        color: rgb(141, 196, 214);
+
+    }
+
+    .lan {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .lan button {
+        width: 4rem;
+        height: 2rem;
+        border: none;
+        border-radius: 10%;
+        margin: 0;
+    }
+
+    .lan .text {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Manrope', sans-serif;
+        width: 12rem;
+        font-size: 10pt;
+        gap: 2rem;
+        padding-top: 3rem;
+        padding-right: 3rem;
+    }
+
+    .ha{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lan .text a {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+    }
+
+    .lan .text p {
+        text-decoration: none;
+        display: flex;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .footer {
+        padding-left: 1rem;
+    }
+
+    .footerimg {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footerimg img {
+        display: flex;
+        width: 2rem;
+        height: 3rem;
+    }
+
+    .footerimg a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        padding: 1rem;
+    }
+
+    .footerimg a h1 {
+        padding-left: 1rem;
+        font-family: 'Manrope', sans-serif;
+    }
+
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer2 h4 {
+        font-size: 12pt;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .footer2 .links2 {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding-top: 1rem;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .footer2 a,
+    p {
+        text-decoration: none;
+        color: rgb(141, 196, 214);
+
+    }
+
+    .lan {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .lan button {
+        width: 4rem;
+        height: 2rem;
+        border: none;
+        border-radius: 10%;
+        margin: 0;
+    }
+
+    .lan .text {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Manrope', sans-serif;
+        width: 12rem;
+        font-size: 10pt;
+        gap: 2rem;
+        padding-top: 3rem;
+        padding-right: 3rem;
+    }
+
+    .yo
+    {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+
+    .ha{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lan .text a {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+    }
+
+    .lan .text p {
+        text-decoration: none;
+        display: flex;
+        color: black;
+    }
+}

@@ -1,0 +1,527 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.design {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.browse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.browse h2 {
+    font-size: 32pt;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.links p {
+    font-size: 16pt;
+}
+
+.webs {
+    border-radius: 25px;
+    box-shadow: 0rem 0rem 1rem;
+    padding: 2rem;
+    width: 20rem;
+}
+
+.webs:hover {
+    transform: translateY(5px);
+}
+
+.webs h4 {
+    font-size: 16pt;
+}
+
+.webs p {
+    color: #000;
+}
+
+.webs img {
+    width: auto;
+    height: 10rem;
+}
+
+.finances {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 3rem;
+    justify-content: center;
+}
+
+.invest {
+    border-radius: 25px;
+    box-shadow: 0rem 0rem 1rem;
+}
+
+.invests {
+    border-radius: 25px;
+    box-shadow: 0rem 0rem 1rem;
+    padding: 2rem;
+    gap: 2rem;
+    width: 35rem;
+    background: -webkit-linear-gradient(15deg, hsla(194, 45%, 40%, 1), hsla(178, 38%, 59%, 1) 66%);
+}
+
+.invests:hover {
+    transform: translateY(5px);
+}
+
+.invests h5 {
+    color: #fff;
+    font-size: 18pt;
+    margin-bottom: 1rem;
+}
+
+.invests p {
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.invests #learn {
+    border-radius: 50px;
+    height: 2rem;
+    width: 7rem;
+    color: #fff;
+    background-color: hsla(178, 38%, 59%, 1);
+    margin-bottom: 3rem;
+}
+
+.invests #learn:hover {
+    background-color: rgb(40, 102, 121);
+    border: none;
+}
+
+.web-pages {
+    display: flex;
+    gap: 1rem;
+}
+
+.invests button {
+    border-radius: 50px;
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+    background-color: hsla(178, 38%, 59%, 1);
+    margin-bottom: 3rem;
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.graduation {
+    box-shadow: 0rem 0rem 1rem;
+    padding: 2rem;
+    border-radius: 25px;
+}
+
+.graduation img {
+    width: 25rem;
+    height: auto;
+}
+
+.graduation h4 {
+    font-size: 18pt;
+}
+
+.graduation p {
+    color: #000;
+}
+
+.graduation:hover {
+    transform: translateY(5px);
+}
+
+.invest:hover {
+    transform: translateY(5px);
+}
+
+#navigation {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    border-bottom: 1px solid rgb(203, 219, 218);
+}
+
+#navigation button {
+    font-size: 16pt;
+}
+
+#navigation button:hover
+{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 720px) {
+
+    .design {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem;
+    }
+
+    .browse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        gap: 2rem;
+    }
+
+    .browse h2 {
+        font-size: 32pt;
+    }
+
+    .links {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .links p {
+        font-size: 16pt;
+    }
+
+    .webs {
+        border-radius: 25px;
+        box-shadow: 0rem 0rem 1rem;
+        padding: 2rem;
+        width: 20rem;
+    }
+
+    .webs:hover {
+        transform: translateY(5px);
+    }
+
+    .webs h4 {
+        font-size: 16pt;
+    }
+
+    .webs p {
+        color: #000;
+    }
+
+    .webs img {
+        width: auto;
+        height: 10rem;
+    }
+
+    .finances {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem;
+        justify-content: center;
+    }
+
+    .invest {
+        border-radius: 25px;
+        box-shadow: 0rem 0rem 1rem;
+    }
+
+    .invests {
+        border-radius: 25px;
+        box-shadow: 0rem 0rem 1rem;
+        padding: 2rem;
+        gap: 2rem;
+        width: 20rem;
+        background: -webkit-linear-gradient(15deg, hsla(194, 45%, 40%, 1), hsla(178, 38%, 59%, 1) 66%);
+    }
+
+    .invests:hover {
+        transform: translateY(5px);
+    }
+
+    .invests h5 {
+        color: #fff;
+        font-size: 18pt;
+        margin-bottom: 1rem;
+    }
+
+    .invests p {
+        color: #fff;
+        margin-bottom: 3rem;
+    }
+
+    .invests #learn {
+        border-radius: 50px;
+        height: 2rem;
+        width: 7rem;
+        color: #fff;
+        background-color: hsla(178, 38%, 59%, 1);
+        margin-bottom: 3rem;
+    }
+
+    .invests #learn:hover {
+        background-color: rgb(40, 102, 121);
+        border: none;
+    }
+
+    .web-pages {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .invests button {
+        border-radius: 50px;
+        height: 2rem;
+        width: 2rem;
+        color: #fff;
+        background-color: hsla(178, 38%, 59%, 1);
+        margin-bottom: 3rem;
+    }
+
+    .education {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .graduation {
+        box-shadow: 0rem 0rem 1rem;
+        padding: 2rem;
+        border-radius: 25px;
+    }
+
+    .graduation img {
+        width: 25rem;
+        height: auto;
+    }
+
+    .graduation h4 {
+        font-size: 18pt;
+    }
+
+    .graduation p {
+        color: #000;
+    }
+
+    .graduation:hover {
+        transform: translateY(5px);
+    }
+
+    .invest:hover {
+        transform: translateY(5px);
+    }
+
+    #navigation {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        border-bottom: 1px solid rgb(203, 219, 218);
+    }
+
+    #navigation button {
+        font-size: 16pt;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    .design {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem;
+    }
+
+    .browse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        gap: 2rem;
+    }
+
+    .browse h2 {
+        font-size: 24pt;
+    }
+
+    .links {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .links p {
+        font-size: 12pt;
+    }
+
+    .webs {
+        border-radius: 25px;
+        box-shadow: 0rem 0rem 1rem;
+        padding: 2rem;
+        width: 18rem;
+    }
+
+    .webs:hover {
+        transform: translateY(2px);
+    }
+
+    .webs h4 {
+        font-size: 16pt;
+    }
+
+    .webs p {
+        color: #000;
+        font-size: 12pt;
+    }
+
+    .webs img {
+        width: auto;
+        height: 10rem;
+    }
+
+    .finances {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem;
+        justify-content: center;
+    }
+
+    .invest {
+        border-radius: 25px;
+        box-shadow: 0rem 0rem 1rem;
+        /* width: 18rem; */
+    }
+
+    .invests {
+        border-radius: 25px;
+        box-shadow: 0rem 0rem 1rem;
+        padding: 2rem;
+        gap: 2rem;
+        width: 20rem;
+        background: -webkit-linear-gradient(15deg, hsla(194, 45%, 40%, 1), hsla(178, 38%, 59%, 1) 66%);
+    }
+
+    .invests:hover {
+        transform: translateY(2px);
+    }
+
+    .invests h5 {
+        color: #fff;
+        font-size: 16pt;
+        margin-bottom: 1rem;
+    }
+
+    .invests p {
+        color: #fff;
+        margin-bottom: 3rem;
+        font-size: 12pt;
+    }
+
+    .invests #learn {
+        border-radius: 50px;
+        height: 2rem;
+        width: 7rem;
+        color: #fff;
+        background-color: hsla(178, 38%, 59%, 1);
+        margin-bottom: 3rem;
+        padding: 0;
+    }
+
+    .invests #learn:hover {
+        background-color: rgb(40, 102, 121);
+        border: none;
+    }
+
+    .web-pages {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .invests button {
+        border-radius: 50px;
+        height: 2rem;
+        width: 2rem;
+        color: #fff;
+        background-color: hsla(178, 38%, 59%, 1);
+        margin-bottom: 3rem;
+        padding: 8px;
+    }
+
+    .education {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 2rem;
+        padding: 2rem;
+        width: 20rem;
+        height: auto;
+    }
+
+    .graduation {
+        box-shadow: 0rem 0rem 1rem;
+        padding: 2rem;
+        border-radius: 25px;
+    }
+
+    .graduation img {
+        width: 25rem;
+        height: auto;
+    }
+
+    .graduation h4 {
+        font-size: 16pt;
+    }
+
+    .graduation p {
+        color: #000;
+        font-size: 12pt;
+    }
+
+    .graduation:hover {
+        transform: translateY(2px);
+    }
+
+    .invest:hover {
+        transform: translateY(2px);
+    }
+
+    #navigation {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 2rem;
+        padding: 3rem;
+        padding-top: 0;
+        padding-bottom: 1rem;
+        width: 30rem;
+        justify-content: center;
+        border-bottom: 1px solid rgb(203, 219, 218);
+    }
+
+    #navigation button {
+        font-size: 12pt;
+    }
+
+}

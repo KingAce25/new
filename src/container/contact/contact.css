@@ -1,0 +1,135 @@
+#contact {
+    background-color: rgb(206, 234, 243);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.top-text {
+    padding: 3rem 0rem 1rem 0rem;
+}
+
+.top-text h2 {
+    font-size: 30pt;
+}
+
+.bodys {
+    display: flex;
+    justify-content: center;
+}
+
+.textd {
+    width: 15rem;
+    padding-bottom: 3rem;
+}
+
+.textd h5 {
+    font-size: 20pt;
+    padding: 3rem 0rem 1rem 0rem;
+    font-size: 16pt;
+}
+
+.textd p {
+    color: #000;
+    padding: rem 0rem 0rem 1rem;
+}
+
+.head-map h2 {
+    color: #000;
+}
+
+.head-map iframe
+{
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 720px) {
+    /* my apikey is 'AIzaSyDfUg-FtM05TV0BTglrISGWkUS6FbdlFOw' */
+
+    #contact {
+        background-color: rgb(206, 234, 243);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top-text h2 {
+        font-size: 28pt;
+    }
+
+    .bodys {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textd {
+        width: 15rem;
+        padding-bottom: 3rem;
+    }
+
+    .textd h5 {
+        font-size: 18pt;
+        padding: 2rem 0rem 1rem 0rem;
+        font-size: 14pt;
+    }
+
+    .textd p {
+        color: #000;
+        padding: rem 0rem 0rem 1rem;
+    }
+
+    .head-map h2 {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 520px)
+{
+    #contact {
+        text-align: center;
+        background-color: rgb(206, 234, 243);
+        align-items: center;
+        justify-content: center;
+        padding: 0rem, 0rem, 2rem, 0rem;
+    }
+
+    .top-text h2 {
+        font-size: 20pt;
+    }
+
+    .bodys {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textd {
+        width: 15rem;
+        padding-bottom: 2rem;
+    }
+
+    .textd h5 {
+        font-size: 12pt;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .textd p {
+        color: #000;
+        padding: rem 0rem 0rem 1rem;
+    }
+
+    .head-map {
+        color: #000;
+        width: 20rem;
+    }
+
+    .head-map iframe
+    {
+        width: auto;
+        height: 20rem;
+    }
+}
