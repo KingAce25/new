@@ -15,6 +15,7 @@
     font-size: 30pt;
 }
 
+
 .bodys {
     display: flex;
     justify-content: center;
@@ -43,6 +44,23 @@
 .head-map iframe
 {
     border-radius: 25px;
+}
+
+#emails #email
+{
+    color: #fff;
+    background-color: rgb(141, 196, 214);
+    border: none;
+}
+
+.contactform
+{
+    padding-top: 3rem;
+}
+
+.etexts
+{
+    display: flex;
 }
 
 @media screen and (max-width: 720px) {

@@ -3,13 +3,19 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+#menu
+{
+    z-index: 999;
+    padding-bottom: 1rem;
+}
+
 /* Styling the hamburger button */
 .menu-btn {
     position: relative;
     /* width: 30px;
     height:px; */
     cursor: pointer;
-    z-index: 2;
+    z-index: 999;
 }
 
 .menu-btn__burger {
@@ -44,11 +50,13 @@ body {
     list-style: none;
     padding: 0rem 2rem;
     margin: 0;
+    padding-bottom: 1rem;
 }
 
 #dropdown-menu ul li {
     margin: 10px 0;
     gap: 1rem;
+    /* padding-bottom: 1rem; */
 }
 
 #dropdown-menu ul li a {

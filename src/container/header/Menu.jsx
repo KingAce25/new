@@ -11,7 +11,7 @@ const Menu = () => {
     };
 
     return (
-        <div>
+        <div id='menu'>
             <div className={`menu-btn ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
 
                 <div className="menu-btn__burger">
@@ -32,12 +32,12 @@ const Menu = () => {
                             <li><a href="/#browse"><b>BROWSE</b></a></li>
                             <li><a href="/#how"><b>HOW IT WORKS</b></a></li>
                             {/* <li><a href="/#faq"><b>FAQs</b></a></li> */}
-                            <li><a href="#contact"><b>Contact</b></a></li>
-                            <li><p><b>PAGES</b></p>
-                                <div id="drop">
-                                    <a href="/topicslisting">Topics Listing</a>
-                                    <a href='/contactform'>Contact</a>
-                                </div></li>
+                            <li><a href="/#contact"><b>CONTACT</b></a></li>
+                            {/* <li><p><b>PAGES</b></p> */}
+                                {/* <div id="drop"> */}
+                                    <b><a href="/topicslisting">Topics Listing</a></b>
+                                    {/* <a href='/contactform'>Contact</a> */}
+                                {/* </div></li> */}
                         </ul>
                     </div>
                 )
@@ -48,3 +48,4 @@ const Menu = () => {
 };
 
 export default Menu;
+

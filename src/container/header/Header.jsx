@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './header.css'
 import Square from '../../assets/square.svg'
-import Arrow from '../../assets/arrow.svg'
+// import Arrow from '../../assets/arrow.svg'
 import Pic from '../../assets/person.svg'
 import Menu from './Menu'
 // import Headerlinks from './Headerlinks'
@@ -26,22 +26,11 @@ const Header = () => {
         <a href="/#how">HOW IT WORKS</a>
         {/* <a href="/#faq">FAQs</a> */}
         <a href="/#contact">CONTACT</a>
-        <div id="droop">
-        <div id="droopdown">
-          <p>PAGES  <img src={Arrow} alt="" /></p>
-        </div>
-        <div id='droopdown-menu'>
-          <ul>
-            <li><a href="topicslisting">Topics Listing</a></li>
-            <li><a href="contactform">Contact</a></li>
-          </ul>
-        </div>
-        </div>
+        <a href="topicslisting">Topics Listing</a>
       </div>
       <div className="contact"><img src={Pic} alt="" /><div id="menu">
         <Menu/>
       </div></div>
-      
     </div>
   )
 }

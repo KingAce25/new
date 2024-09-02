@@ -25,6 +25,9 @@ const Contact = () => {
         <p>Anettcom Technologies, Suite 1 Grace Gas House, Omobolanle, Osogbo, Osun State</p>
         </div>
       </div>
+      <div className="contactform">
+      <a href="contactform" id='emails'><button id='email'>Email Us</button></a>
+      </div>
     </div>
   )
 }

@@ -13,10 +13,12 @@ const Footer = () => {
                     <div className="footer2">
                         <div className="text"><h4>Resources</h4></div>
                         <div className="links2">
-                            <Link to='/'>Home</Link>
-                            <Link to='/#how'>How it works</Link>
+                            <a href="/">Home</a>
+                            <a href="/#browse">Browse</a>
+                            <a href="/#how">How it works</a>
                             {/* <Link to='faq'>FAQs</Link> */}
-                            <Link to='/#contact'>Contact</Link>
+                            <a href="/#contact">Contact</a>
+                            <a href="topicslisting">Topics Listing</a>
                         </div>
                     </div>
                     <div className="footer2">
@@ -24,6 +26,8 @@ const Footer = () => {
                         <div className="links2">
                             <p>305-240-9671</p>
                             <p>info@company.com</p>
+                            <a href="contactform">Email Us</a>
+
                         </div>
                     </div>
                 </div>

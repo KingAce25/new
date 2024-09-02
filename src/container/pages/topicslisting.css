@@ -4,6 +4,11 @@
     font-family: 'Manrope', sans-serif;
 }
 
+/* .topics-listing
+{
+    padding: 2rem;
+} */
+
 .head {
     display: flex;
     flex-direction: column;
@@ -129,6 +134,8 @@
 .foot {
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+    justify-content: space-evenly;
 }
 
 .foot .top {
@@ -144,6 +151,7 @@
     display: flex;
     gap: 2rem;
     padding: 2rem;
+    justify-content: space-evenly;
 }
 
 .invest {
@@ -168,6 +176,7 @@
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    background-color: hsla(194, 45%, 40%, 1);
     /* background-image: url('src\assets\businesswoman-using-tablet-analysis.jpg'); */
     width: 27rem;
     gap: 1rem;
@@ -183,10 +192,11 @@
 
 .finance h5 {
     font-size: 18pt;
+    color: #fff;
 }
 
 .finance p {
-    color: #000;
+    color: #fff;
 }
 
 #learn {
@@ -397,9 +407,9 @@
         font-size: 18pt;
     }
 
-    .finance p {
+    /* .finance p {
         color: #000;
-    }
+    } */
 
     #learn {
         border-radius: 50px;
@@ -561,9 +571,9 @@
         font-size: 18pt;
     }
 
-    .finance p {
+    /* .finance p {
         color: #000;
-    }
+    } */
 
     #learn {
         border-radius: 50px;

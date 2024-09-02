@@ -6,6 +6,7 @@ import Facebook from '../../assets/facebook.svg'
 import Pintrest from '../../assets/pinterest.svg'
 import Twitter from '../../assets/twitter.svg'
 import Bookmark from '../../assets/bookmark.svg'
+// import { Link } from 'react-router-dom'
 import WebD from '../../assets/undraw_Remote_design_team_re_urdx.png'
 
 const Hero = () => {
@@ -26,11 +27,13 @@ const Hero = () => {
         <div className="pictures">
           <div className="images justify-center ">
             
-              <div id="webs">
+            <a href="web">
+            <div id="webs">
                 <h4><b>Web Design</b></h4>
                 <p>When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
                 <img src={WebD} alt='' />
               </div>
+            </a>
             
             <div className="imag">
               <h4>Finance</h4>

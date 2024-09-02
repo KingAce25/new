@@ -74,6 +74,12 @@
     padding-bottom: 1rem;
 }
 
+.inputs
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .inputs #subject {
     border-radius: 50px;
     padding: 1rem;
