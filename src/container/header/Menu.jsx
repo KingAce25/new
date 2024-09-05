@@ -28,14 +28,14 @@ const Menu = () => {
                 menuOpen && (
                     <div id="dropdown-menu">
                         <ul>
-                            <li><a href="/"><b>HOME</b></a></li>
-                            <li><a href="/#browse"><b>BROWSE</b></a></li>
-                            <li><a href="/#how"><b>HOW IT WORKS</b></a></li>
+                            <li><a href="/" onClick={() => setMenuOpen(false)}><b>HOME</b></a></li>
+                            <li><a href="/#browse" onClick={() => setMenuOpen(false)}><b>BROWSE</b></a></li>
+                            <li><a href="/#how" onClick={() => setMenuOpen(false)}><b>HOW IT WORKS</b></a></li>
                             {/* <li><a href="/#faq"><b>FAQs</b></a></li> */}
-                            <li><a href="/#contact"><b>CONTACT</b></a></li>
+                            <li><a href="/#contact" onClick={() => setMenuOpen(false)}><b>CONTACT</b></a></li>
                             {/* <li><p><b>PAGES</b></p> */}
                                 {/* <div id="drop"> */}
-                                    <b><a href="/topicslisting">Topics Listing</a></b>
+                                    <b><a href="/topicslisting" onClick={() => setMenuOpen(false)}>Topics Listing</a></b>
                                     {/* <a href='/contactform'>Contact</a> */}
                                 {/* </div></li> */}
                         </ul>
